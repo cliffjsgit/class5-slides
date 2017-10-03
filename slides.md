@@ -24,8 +24,6 @@ revealOptions:
 
 #### Testing Knowledge!
 
-##### Lists
-
 - What are two ways to create a list?
 - What data types can a list contain?
 - Do all data types in a list have to be the same?
