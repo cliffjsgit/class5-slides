@@ -10,7 +10,7 @@ revealOptions:
 ### ITSE-1402 Intermediate Python
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 5: Chapter 11: Dictionaries</span>
 <br /><br />
-##### [https://z3r0.tech/slides-5](https://z3r0.tech/slides-5)
+##### [https://coder.run/1402-class5](https://coder.run/1402-class5)
 
 -----
 
@@ -18,7 +18,7 @@ revealOptions:
 
 +++++
 
-[https://z3r0.tech/1402-chap11](https://z3r0.tech/1402-chap11)
+[https://coder.run/1402-chap11](https://coder.run/1402-chap11)
 
 +++++
 
@@ -94,18 +94,25 @@ We'll discuss how to implement a custom dictionary in Appendix B
     
 +++++
 
-```python
+<pre class="stretch"><code class="python" data-trim data-noescape>
 #!/usr/bin/env python3
 
 # Exercise 11.1
 #
-# 1. Write a function that reads the words in words.txt and stores them as keys 
-# in a dictionary. It doesn't matter what the values are. Then you can use the 
-# in operator as a fast way to check whether a string is in the dictionary.
-# 
-# If you did Exercise 10.10, you can compare the speed of this implementation 
-# with the list in operator and the bisection search.
-```
+# Grading Guidelines:
+# - No answer variable is needed. Grading script will call function.
+# - Function "make_dict" should output a dictionary with the words of 
+# "words.txt" as keys
+#
+# 1. Write a function name "make_dict" that reads the words in words.txt,
+# stores them as keys in a dictionary and returns the dictionary. It 
+# doesn't matter what the values. For simplicity, you can set them to 0. 
+#
+# This would allow you to use the in operator as a fast way to check whether a 
+# word is in the dictionary. If you are feeling ambitious you can compare this
+# to the in operator with a list and the bisect search from Chapter 10.
+#
+</code></pre>
 
 +++++
 
@@ -142,7 +149,7 @@ in checks keys only
 If you need to check for a value, you can do something like this:
 
 ```python
-vals = eng2sp.values
+vals = eng2sp.values()
 'uno' in vals
 # True
 ```
@@ -174,11 +181,14 @@ h.get('z',0)
 # 0
 ```
 
+NOTE:
+The method get() returns a value for the given key, however if the key is not available then returns default value "None" or n this case,  the second argument of the method.
+
 +++++
 
 Looping and dictionaries
 
-```python
+<pre class="stretch"><code class="python" data-trim data-noescape>
 print_hist(h):
     for c in h:
         print(c, h[c])
@@ -198,7 +208,7 @@ for key in sorted(h):
 # p 1
 # r 2
 # t 1
-```
+</code></pre>
 
 Note: 
 When using a for statement, python will travese the keys of a dictionary
@@ -224,7 +234,7 @@ This uses something we haven't learned yet, a raise. This causes an exception an
 
 Lists in dictionaries
 
-```python
+<pre class="stretch"><code class="python" data-trim data-noescape>
 normDict = {'n': 1, 'a': 1, 'r': 2, 'u': 2, 't': 1, 'b': 1, 's': 2, 'o': 2}
 
 inverse_dict(d):
@@ -239,14 +249,19 @@ inverse_dict(d):
 
 inverse_dict(normDict)
 # { 1: ['n','a','t','b'], 2: ['r','y','s','o'] } 
-```
+</code></pre>
 
 +++++
 
-```python
+<pre class="stretch"><code class="python" data-trim data-noescape>
 #!/usr/bin/env python3
 
 # Exercise 11.2
+#
+# Grading Guidelines:
+# - No answer variable is needed. Grading script will call function.
+# - Function "invert_dict" should output an inverted dictionary based on a 
+# dictionary input.
 #
 # 1. Read the documentation of the dictionary method setdefault and use it to 
 # write a more concise version of invert_dict.
@@ -260,7 +275,8 @@ inverse_dict(normDict)
 #         else:
 #             inverse[val].append(key)
 #     return inverse
-```
+#
+</code></pre>
 
 +++++
 
@@ -282,7 +298,7 @@ def fibonacci(n):
 
 +++++
 
-```python
+<pre class="stretch"><code class="python" data-trim data-noescape>
 #!/usr/bin/env python3
 
 # Exercise 11.3
@@ -302,7 +318,7 @@ def fibonacci(n):
 #         return ack(m - 1, ack(m, n - 1))
 #
 # print(ack(3, 4))
-```
+</code></pre>
 
 +++++
 
@@ -364,12 +380,17 @@ def example4():
 
 +++++
 
-```python
+<pre class="stretch"><code class="python" data-trim data-noescape>
 #!/usr/bin/env python3
 
 # Exercise 11.4
 #
-# 1. If you did Exercise 10.7, you already have a function named has_duplicates
+# Grading Guidelines:
+# - No answer variable is needed. Grading script will call function.
+# - Function "has_duplicates" should return True if there are any duplicates,
+# otherwise return False.
+#
+# 1. If you did Exercise 10.7, you already have a function named "has_duplicates"
 # that takes a list as a parameter and returns True if there is any object that
 # appears more than once in the list.
 # 
@@ -382,7 +403,7 @@ def has_duplicates(li):
             return True
         dictionary[word] = True
     return False
-```
+</code></pre>
 
 +++++
 
@@ -400,7 +421,7 @@ Note:
 
 KeyError work arounds:
 if key in myDict
-myDict.get(key, default)
+myDict.get(key,[opt return on None])
 
 +++++
 
