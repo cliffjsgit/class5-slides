@@ -10,7 +10,7 @@ revealOptions:
 ### ITSE-1402 Intermediate Python
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 5: Chapter 11: Dictionaries</span>
 <br /><br />
-##### [https://coder.run/1402-class5](https://coder.run/1402-class5)
+##### [https://bit.ly/1402-class5](https://bit.ly/1402-class5)
 
 -----
 
@@ -18,7 +18,7 @@ revealOptions:
 
 +++++
 
-[https://coder.run/1402-chap11](https://coder.run/1402-chap11)
+[https://bit.ly/1402-chap11](https://bit.ly/1402-chap11)
 
 +++++
 
