@@ -237,7 +237,7 @@ Lists in dictionaries
 <pre class="stretch"><code class="python" data-trim data-noescape>
 normDict = {'n': 1, 'a': 1, 'r': 2, 'u': 2, 't': 1, 'b': 1, 's': 2, 'o': 2}
 
-inverse_dict(d):
+def inverse_dict(d):
     inverse = dict()
     for key in d:
         val = d[key]
@@ -424,4 +424,4 @@ myDict.get(key,[opt return on None])
 
 +++++
 
-Exercise 11.5 and 11.6 are homework. You may do a CodeFights Challenge for extra credit
+Exercise 11.5 and 11.6 are homework.
