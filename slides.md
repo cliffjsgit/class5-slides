@@ -18,19 +18,6 @@ revealOptions:
 
 +++++
 
-#### Testing Knowledge!
-
-- What are two ways to create a list?
-- What data types can a list contain?
-- Do all data types in a list have to be the same?
-- In a two-dimensional list named myList, how do I access the second entry in the third row?
-- What is x when defined as so: x = myList.sort()?
-- What is an alias and what effect does it have on a list?
-- How would I remove the last item in a list and save it in variable y?
-- What is the difference between the sort method and the sorted function?
-
-+++++
-
 ##### Dictionaries
 
 Dictionaries are the equivalent of today's object storage such as Amazon Web Services S3, but in python. You have a key, that key returns an object. 
