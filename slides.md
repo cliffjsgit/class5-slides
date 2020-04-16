@@ -1,10 +1,11 @@
----
-title: 'Class 5: Chapter 11: Dictionaries'
-
----
+-----
 
 ### ITSE-1402 Intermediate Python
+<span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 5: Chapter 11: Dictionaries</span>
+<br /><br />
+-----
 
+##### Dictionaries
 
 Dictionaries are the equivalent of today's object storage such as Amazon Web Services S3, but in python. You have a key, that key returns an object. 
 
