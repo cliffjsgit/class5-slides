@@ -8,9 +8,6 @@ revealOptions:
 ---
 
 ### ITSE-1402 Intermediate Python
-<span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 5: Chapter 11: Dictionaries</span>
-<br /><br />
-##### [https://bit.ly/1402-class5](https://bit.ly/1402-class5)
 
 -----
 
@@ -81,11 +78,6 @@ We'll discuss how to implement a custom dictionary in Appendix B
 #!/usr/bin/env python3
 
 # Exercise 11.1
-#
-# Grading Guidelines:
-# - No answer variable is needed. Grading script will call function.
-# - Function "make_dict" should output a dictionary with the words of 
-# "words.txt" as keys
 #
 # 1. Write a function name "make_dict" that reads the words in words.txt,
 # stores them as keys in a dictionary and returns the dictionary. It 
@@ -241,11 +233,6 @@ inverse_dict(normDict)
 
 # Exercise 11.2
 #
-# Grading Guidelines:
-# - No answer variable is needed. Grading script will call function.
-# - Function "invert_dict" should output an inverted dictionary based on a 
-# dictionary input.
-#
 # 1. Read the documentation of the dictionary method setdefault and use it to 
 # write a more concise version of invert_dict.
 #
@@ -367,11 +354,6 @@ def example4():
 #!/usr/bin/env python3
 
 # Exercise 11.4
-#
-# Grading Guidelines:
-# - No answer variable is needed. Grading script will call function.
-# - Function "has_duplicates" should return True if there are any duplicates,
-# otherwise return False.
 #
 # 1. If you did Exercise 10.7, you already have a function named "has_duplicates"
 # that takes a list as a parameter and returns True if there is any object that
