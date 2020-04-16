@@ -1,21 +1,10 @@
 ---
 title: 'Class 5: Chapter 11: Dictionaries'
-separator: '\-\-\-\-\-'
-verticalSeparator: '\+\+\+\+\+'
-theme: 'moon'
-revealOptions:
-    transition: 'fade'
+
 ---
 
 ### ITSE-1402 Intermediate Python
 
------
-
-##### Chapter 11: Dictionaries
-
-+++++
-
-##### Dictionaries
 
 Dictionaries are the equivalent of today's object storage such as Amazon Web Services S3, but in python. You have a key, that key returns an object. 
 
