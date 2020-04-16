@@ -18,10 +18,6 @@ revealOptions:
 
 +++++
 
-[https://bit.ly/1402-chap11](https://bit.ly/1402-chap11)
-
-+++++
-
 #### Testing Knowledge!
 
 - What are two ways to create a list?
